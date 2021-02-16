@@ -1,0 +1,10 @@
+.pizzaRow {
+  width: 65%;
+  margin: auto;
+  display: inline;
+  border: 1px solid red;
+}
+.pizzaCol {
+  width: 100%;
+  height: auto;
+}

@@ -1,0 +1,241 @@
+.MuiSvgIcon-root {
+  font-size: 30px;
+  color: black;
+}
+.searchContent {
+  width: 100%;
+  background-color: white;
+  height: 40vh;
+}
+.searchContent h1 {
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+.inputs {
+  width: 55%;
+  margin: auto;
+  padding-top: 50px;
+}
+.inputs p {
+  font-size: 22px;
+}
+.inputs input {
+  width: 100%;
+  font-size: 25px;
+  padding: 10px;
+  margin-top: 20px;
+}
+.searchContentTitle {
+  margin: auto;
+  width: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+form {
+  display: flex;
+  align-items: center;
+}
+/* XS Devices */
+@media (max-width: 575px) {
+  .searchContent {
+    width: 94%;
+    height: 100vh;
+  }
+  .searchContentTitle {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .searchContentTitle h1 {
+    font-size: 22px;
+  }
+  .inputs {
+    width: 90%;
+    margin: auto;
+    padding-top: 45px;
+    padding-left: 10px;
+    display: block;
+    margin-left: -20px;
+  }
+  .inputs input {
+    width: 90%;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .inputs p {
+    font-size: 16px;
+  }
+  .inputButton {
+    display: inline;
+  }
+}
+
+/* SM Devices */
+@media (min-width: 576px) and (max-width: 767px) {
+  .searchContent {
+    width: 94%;
+    height: 80vh;
+  }
+  .inputButton {
+    display: inline;
+  }
+  .searchContentTitle {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .searchContentTitle h1 {
+    font-size: 22px;
+  }
+  .inputs {
+    width: 100%;
+    margin: auto;
+    padding-top: 50px;
+    padding-left: 20px;
+  }
+  .inputs input {
+    width: 90%;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .inputs p {
+    font-size: 18px;
+  }
+}
+
+/* MD Devices */
+@media (min-width: 768px) and (max-width: 990px) {
+  .searchContent {
+    width: 94%;
+    height: 80vh;
+  }
+  .inputButton {
+    display: inline;
+  }
+  .searchContentTitle {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .searchContentTitle h1 {
+    font-size: 25px;
+  }
+  .inputs {
+    width: 100%;
+    margin: auto;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+  }
+  .inputs input {
+    width: 90%;
+    font-size: 22px;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .inputs p {
+    font-size: 20px;
+  }
+}
+
+/* LG Devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .MuiSvgIcon-root {
+    font-size: 30px;
+    color: black;
+  }
+  .searchContent {
+    width: 100%;
+    background-color: white;
+    height: 40vh;
+  }
+
+  .inputButton {
+    display: flex;
+    align-items: center;
+  }
+  .searchContent h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+  }
+  .inputs {
+    width: 55%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+  .inputs p {
+    font-size: 22px;
+  }
+  .inputs input {
+    width: 100%;
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  .searchContentTitle {
+    margin: auto;
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+/* XL Devices */
+@media (min-width: 1200px) {
+  .MuiSvgIcon-root {
+    font-size: 30px;
+    color: black;
+  }
+  .searchContent {
+    width: 100%;
+    background-color: white;
+    height: 40vh;
+  }
+  .inputButton {
+    display: flex;
+    align-items: center;
+  }
+  .searchContent h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+  }
+  .inputs {
+    width: 55%;
+    margin: auto;
+    padding-top: 50px;
+    margin-bottom: 40px;
+  }
+  .inputs p {
+    font-size: 22px;
+  }
+  .inputs input {
+    width: 100%;
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  .searchContentTitle {
+    margin: auto;
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

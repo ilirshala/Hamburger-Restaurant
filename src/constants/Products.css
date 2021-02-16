@@ -1,0 +1,182 @@
+.product {
+  width: 50%;
+  height: 360px;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.product:hover {
+  cursor: pointer;
+  transform: translateY(-10px);
+  transition: 0.4s ease-in-out;
+}
+.items {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.image {
+  height: 100%;
+  width: 50%;
+}
+.image img {
+  height: 80%;
+  width: 70%;
+  margin-left: 15%;
+}
+.others {
+  height: 80%;
+  width: 55%;
+  padding: 20px;
+  margin-right: 10%;
+}
+.others h3 {
+  margin-bottom: 20px;
+  color: rgb(27, 27, 27);
+  font-size: 23px;
+  font-weight: 700;
+}
+.others p {
+  margin-bottom: 30px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(27, 27, 27);
+  font-size: 17px;
+}
+.describecolona {
+  display: flex;
+}
+
+/* XS Devices */
+@media (max-width: 575px) {
+  .product {
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .items {
+    display: inline;
+  }
+  .image {
+    width: 40%;
+    height: 50%;
+    margin: auto;
+    margin-top: -12px;
+  }
+  .image img {
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+  }
+  .others {
+    width: 100%;
+    display: inline;
+    text-align: center;
+  }
+  .others h3 {
+    font-size: 17px;
+  }
+  .others p {
+    margin-top: -10px;
+    font-size: 12px;
+    margin-bottom: 30px;
+    width: 92%;
+    text-align: center;
+    margin-left: 3%;
+  }
+  .descriptionPrice {
+    display: inline;
+    justify-content: space-between;
+    width: 82%;
+  }
+}
+
+/* SM Devices */
+@media (min-width: 576px) and (max-width: 767px) {
+  .product {
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .image img {
+    margin: 30px;
+    margin-left: 20px;
+  }
+  .others p {
+    font-size: 15px;
+  }
+}
+
+/* MD Devices */
+@media (min-width: 768px) and (max-width: 990px) {
+  .product {
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+}
+
+/* LG Devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .product {
+    width: 70%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+}
+
+/* XL Devices */
+@media (min-width: 1200px) {
+  .product {
+    width: 50%;
+    height: 360px;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .product:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: 0.4s ease-in-out;
+  }
+  .items {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  .image {
+    height: 100%;
+    width: 50%;
+  }
+  .image img {
+    height: 80%;
+    width: 70%;
+    margin-left: 15%;
+  }
+  .others {
+    height: 80%;
+    width: 55%;
+    padding: 20px;
+    margin-right: 10%;
+  }
+  .others h3 {
+    margin-bottom: 20px;
+    color: rgb(27, 27, 27);
+    font-size: 23px;
+    font-weight: 700;
+  }
+  .others p {
+    margin-bottom: 30px;
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(27, 27, 27);
+    font-size: 17px;
+  }
+  .describecolona {
+    display: flex;
+  }
+}

@@ -1,0 +1,28 @@
+.navbar {
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  border-bottom: 1px solid lightgray;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.navbar__content {
+  max-width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  padding: 5px;
+}
+.navbar__content h3 {
+  font-family: "Noto Sans JP", sans-serif !important;
+  font-size: 22px !important;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase !important;
+}
+.navbar__content .MuiSvgIcon-root {
+  font-size: 30px;
+  color: black;
+}

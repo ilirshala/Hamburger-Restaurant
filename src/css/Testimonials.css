@@ -1,0 +1,298 @@
+.testimonials {
+  width: 100%;
+  height: auto;
+  margin-top: 90px;
+}
+.row {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row2 {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+}
+.colonaFotos {
+  width: 40%;
+  height: 500px;
+  margin-right: 50px;
+}
+.colonaFotos img {
+  width: 100%;
+  height: 100%;
+}
+.colonaTekstit {
+  width: 60%;
+  /* height: 100%; */
+  margin-right: 30px;
+}
+.colonaTekstit .subtitle {
+  color: orange;
+  margin-top: -100px;
+  font-family: "Montez", cursive;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+.colonaTekstit .title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold !important;
+  margin-bottom: 20px;
+}
+.colonaTekstit .teksti {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(27, 27, 27);
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+/* XS Devices */
+@media (max-width: 575px) {
+  .row {
+    width: 100%;
+    margin: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  .row2 {
+    width: 100%;
+    margin: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+  }
+  .colonaFotos {
+    width: 100%;
+    height: 500px;
+    margin-right: 50px;
+  }
+  .colonaFotos img {
+    width: 90%;
+    height: 90%;
+    margin-left: 15px;
+  }
+  .colonaTekstit {
+    width: 100%;
+    /* height: 100%; */
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .colonaTekstit .subtitle {
+    text-align: center;
+    color: orange;
+    margin-top: 50px;
+    font-family: "Montez", cursive;
+    font-size: 40px;
+    padding-bottom: 20px;
+    margin-left: -40px;
+  }
+  .colonaTekstit .title {
+    margin-left: -40px;
+    font-size: 18px;
+  }
+  .colonaTekstit .teksti {
+    font-size: 13px;
+    width: 80%;
+    margin-left: 15px;
+    text-align: center;
+  }
+}
+
+/* SM Devices */
+@media (min-width: 576px) and (max-width: 767px) {
+  .row {
+    width: 100%;
+    margin: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  .row2 {
+    width: 100%;
+    margin: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+  }
+  .colonaFotos {
+    width: 100%;
+    height: 600px;
+    margin-right: 50px;
+  }
+  .colonaFotos img {
+    width: 90%;
+    height: 90%;
+    margin-left: 15px;
+  }
+  .colonaTekstit {
+    width: 100%;
+    /* height: 100%; */
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .colonaTekstit .subtitle {
+    color: orange;
+    margin-top: 50px;
+    font-family: "Montez", cursive;
+    font-size: 40px;
+    padding-bottom: 20px;
+  }
+}
+
+/* MD Devices */
+@media (min-width: 768px) and (max-width: 991px) {
+  .row {
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .row2 {
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+  }
+  .colonaFotos {
+    width: 40%;
+    height: 500px;
+    margin-right: 50px;
+  }
+  .colonaFotos img {
+    width: 100%;
+    height: 90%;
+    margin-left: 30px;
+  }
+  .colonaTekstit {
+    width: 60%;
+    /* height: 100%; */
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+}
+
+/* LG Devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .testimonials {
+    width: 100%;
+    height: 50px;
+    margin-top: 90px;
+  }
+  .row {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .row2 {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+  }
+  .colonaFotos {
+    width: 40%;
+    height: 500px;
+    margin-right: 50px;
+  }
+  .colonaFotos img {
+    width: 100%;
+    height: 100%;
+  }
+  .colonaTekstit {
+    width: 60%;
+    /* height: 100%; */
+    margin-right: 30px;
+  }
+  .colonaTekstit .subtitle {
+    color: orange;
+    margin-top: -100px;
+    font-family: "Montez", cursive;
+    font-size: 40px;
+    padding-bottom: 20px;
+  }
+  .colonaTekstit .title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold !important;
+    margin-bottom: 20px;
+  }
+  .colonaTekstit .teksti {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(27, 27, 27);
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+/* XL Devices */
+@media (min-width: 1200px) {
+  .testimonials {
+    width: 100%;
+    height: 50px;
+    margin-top: 90px;
+  }
+  .row {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .row2 {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+  }
+  .colonaFotos {
+    width: 40%;
+    height: 500px;
+    margin-right: 50px;
+  }
+  .colonaFotos img {
+    width: 100%;
+    height: 100%;
+  }
+  .colonaTekstit {
+    width: 60%;
+    /* height: 100%; */
+    margin-right: 30px;
+  }
+  .colonaTekstit .subtitle {
+    color: orange;
+    margin-top: -100px;
+    font-family: "Montez", cursive;
+    font-size: 40px;
+    padding-bottom: 20px;
+  }
+  .colonaTekstit .title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold !important;
+    margin-bottom: 20px;
+  }
+  .colonaTekstit .teksti {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(27, 27, 27);
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+}

@@ -1,0 +1,268 @@
+.location {
+  width: 65%;
+  height: auto;
+  margin: auto;
+}
+.top {
+  text-align: center;
+  padding: 40px;
+  margin-top: 30px;
+}
+.top h1 {
+  font-weight: 600;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.top p {
+  font-size: 18px;
+  color: lightslategrey;
+}
+.map {
+  width: 100%;
+}
+.map iframe {
+  width: 100%;
+  height: 300px;
+}
+.adresses {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+.adress1 h3 {
+  color: gray;
+  align-items: center;
+  font-size: 20px;
+}
+.adress1 p {
+  color: gray;
+  font-size: 17px;
+  text-align: center;
+}
+.paragrafiFooter {
+  width: 95%;
+  text-align: center;
+  margin-top: 100px;
+}
+.paragrafiFooter p {
+  color: gray;
+  font-size: 18px;
+  line-height: 33px;
+}
+
+/* XS Devices */
+@media (max-width: 575px) {
+  .location {
+    width: 100%;
+  }
+  .top {
+    margin-top: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  .top h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .top p {
+    font-size: 15px;
+    color: lightslategrey;
+  }
+  .map {
+    width: 90%;
+    margin: auto;
+  }
+  .adresses {
+    display: block;
+    text-align: center;
+    align-items: center;
+  }
+  .adress1 {
+    margin-top: 30px;
+  }
+  .paragrafiFooter {
+    width: 90%;
+    margin: auto;
+  }
+  .paragrafiFooter p {
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
+/* SM Devices */
+@media (min-width: 576px) and (max-width: 767px) {
+  .location {
+    width: 100%;
+  }
+  .top {
+    margin-top: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  .top h1 {
+    font-size: 23px;
+    margin-bottom: 20px;
+  }
+  .top p {
+    font-size: 17px;
+    color: lightslategrey;
+  }
+  .map {
+    width: 90%;
+    margin: auto;
+  }
+  .adresses {
+    display: block;
+    text-align: center;
+    align-items: center;
+  }
+  .adress1 {
+    margin-top: 30px;
+  }
+  .paragrafiFooter {
+    width: 90%;
+    margin: auto;
+  }
+  .paragrafiFooter p {
+    font-size: 17px;
+    text-align: center;
+  }
+}
+
+/* MD Devices */
+@media (min-width: 768px) and (max-width: 990px) {
+  .location {
+    width: 100%;
+  }
+  .map {
+    width: 95%;
+    margin: auto;
+  }
+  .paragrafiFooter {
+    width: 95%;
+    margin: auto;
+  }
+}
+
+/* LG Devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .location {
+    width: 65%;
+    height: auto;
+    margin: auto;
+  }
+  .top {
+    text-align: center;
+    padding: 40px;
+    margin-top: 30px;
+  }
+  .top h1 {
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .top p {
+    font-size: 18px;
+    color: lightslategrey;
+  }
+  .map {
+    width: 100%;
+  }
+  .map iframe {
+    width: 100%;
+    height: 300px;
+  }
+  .adresses {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 70px;
+  }
+  .adress1 h3 {
+    color: gray;
+    align-items: center;
+    font-size: 20px;
+  }
+  .adress1 p {
+    color: gray;
+    font-size: 17px;
+    text-align: center;
+  }
+  .paragrafiFooter {
+    width: 95%;
+    text-align: center;
+    margin-top: 100px;
+  }
+  .paragrafiFooter p {
+    color: gray;
+    font-size: 18px;
+    line-height: 33px;
+  }
+}
+
+/* XL Devices */
+@media (min-width: 1200px) {
+  .location {
+    width: 65%;
+    height: auto;
+    margin: auto;
+  }
+  .top {
+    text-align: center;
+    padding: 40px;
+    margin-top: 30px;
+  }
+  .top h1 {
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .top p {
+    font-size: 18px;
+    color: lightslategrey;
+  }
+  .map {
+    width: 100%;
+  }
+  .map iframe {
+    width: 100%;
+    height: 300px;
+  }
+  .adresses {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 70px;
+  }
+  .adress1 h3 {
+    color: gray;
+    align-items: center;
+    font-size: 20px;
+  }
+  .adress1 p {
+    color: gray;
+    font-size: 17px;
+    text-align: center;
+  }
+  .paragrafiFooter {
+    width: 95%;
+    text-align: center;
+    margin-top: 100px;
+  }
+  .paragrafiFooter p {
+    color: gray;
+    font-size: 18px;
+    line-height: 33px;
+  }
+}

@@ -1,0 +1,361 @@
+.menuBanner {
+  width: 100%;
+  height: 80vh;
+  background-image: url("../img/fotoo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 1150px;
+  margin-bottom: 100px;
+}
+.titles {
+  padding-top: 70px;
+  padding-left: 200px;
+}
+.titles .subtitle {
+  color: rgb(224, 145, 92);
+  font-family: "Montez", cursive;
+  font-size: 40px;
+}
+.titles .title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold !important;
+  margin-bottom: 20px;
+  color: white;
+}
+.text {
+  margin-top: 50px;
+  width: 42%;
+  padding-left: 200px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+.prices {
+  margin-top: 20px;
+  color: white;
+  padding-left: 200px;
+}
+.prices ul {
+  list-style: none;
+  line-height: 30px;
+  margin-top: 50px;
+}
+.prices ul li {
+  font-weight: bold;
+}
+.prices ul li .price1 {
+  margin-left: 200px;
+  color: rgb(224, 145, 92);
+}
+.prices ul li .price2 {
+  margin-left: 234px;
+  color: rgb(224, 145, 92);
+}
+.prices ul li .price3 {
+  margin-left: 203px;
+  color: rgb(224, 145, 92);
+}
+.prices ul li .price4 {
+  margin-left: 284px;
+  color: rgb(224, 145, 92);
+}
+.prices ul li .price5 {
+  margin-left: 256px;
+  color: rgb(224, 145, 92);
+}
+.prices ul li .price6 {
+  margin-left: 284px;
+  color: rgb(224, 145, 92);
+}
+
+/* XS Devices */
+@media (max-width: 575px) {
+  .menuBanner {
+    margin-top: 150px;
+    width: 100%;
+    height: auto;
+  }
+  .titles {
+    margin: auto;
+    padding-top: 70px;
+    padding-left: 10px;
+  }
+  .titles .subtitle {
+    color: rgb(224, 145, 92);
+    font-family: "Montez", cursive;
+    font-size: 40px;
+  }
+  .titles .title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold !important;
+    margin-bottom: 20px;
+    color: white;
+  }
+  .text {
+    margin-top: 50px;
+    width: 90%;
+    padding-left: 50px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    text-align: center;
+  }
+  .prices {
+    margin-top: 20px;
+    color: white;
+    padding-left: 15px;
+    padding-bottom: 30px;
+  }
+  .prices ul li {
+    font-size: 12px;
+  }
+  .prices ul li .price1 {
+    margin-left: 100px;
+    color: rgb(224, 145, 92);
+  }
+  .prices ul li .price2 {
+    margin-left: 126px;
+    color: rgb(224, 145, 92);
+  }
+  .prices ul li .price3 {
+    margin-left: 103px;
+    color: rgb(224, 145, 92);
+  }
+  .prices ul li .price4 {
+    margin-left: 164px;
+    color: rgb(224, 145, 92);
+  }
+  .prices ul li .price5 {
+    margin-left: 143px;
+    color: rgb(224, 145, 92);
+  }
+  .prices ul li .price6 {
+    margin-left: 164px;
+    color: rgb(224, 145, 92);
+  }
+}
+
+/* SM Devices */
+@media (min-width: 576px) and (max-width: 767px) {
+  .menuBanner {
+    margin-top: 150px;
+    width: 100%;
+    height: auto;
+  }
+  .titles {
+    padding-top: 70px;
+    padding-left: 70px;
+  }
+  .titles .subtitle {
+    color: rgb(224, 145, 92);
+    font-family: "Montez", cursive;
+    font-size: 40px;
+  }
+  .titles .title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold !important;
+    margin-bottom: 20px;
+    color: white;
+  }
+  .text {
+    margin-top: 50px;
+    width: 90%;
+    padding-left: 50px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    text-align: center;
+  }
+  .prices {
+    margin-top: 20px;
+    color: white;
+    padding-left: 90px;
+    padding-bottom: 30px;
+  }
+}
+
+/* MD Devices */
+@media (min-width: 768px) and (max-width: 990px) {
+  .menuBanner {
+    margin-top: 150px;
+    width: 100%;
+    height: auto;
+  }
+  .titles {
+    padding-top: 70px;
+    padding-left: 70px;
+  }
+  .titles .subtitle {
+    color: rgb(224, 145, 92);
+    font-family: "Montez", cursive;
+    font-size: 40px;
+  }
+  .titles .title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold !important;
+    margin-bottom: 20px;
+    color: white;
+  }
+  .text {
+    margin-top: 50px;
+    width: 61%;
+    padding-left: 50px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+  }
+  .prices {
+    margin-top: 20px;
+    color: white;
+    padding-left: 55px;
+    padding-bottom: 30px;
+  }
+}
+
+/* LG Devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .menuBanner {
+    width: 100%;
+    height: auto;
+    background-image: url("../img/fotoo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 1150px;
+    margin-bottom: 100px;
+  }
+  .titles {
+    padding-top: 70px;
+    padding-left: 200px;
+  }
+  .titles .subtitle {
+    color: rgb(224, 145, 92);
+    font-family: "Montez", cursive;
+    font-size: 40px;
+  }
+  .titles .title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold !important;
+    margin-bottom: 20px;
+    color: white;
+  }
+  .text {
+    margin-top: 50px;
+    width: 42%;
+    padding-left: 200px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+  }
+  .prices {
+    margin-top: 20px;
+    color: white;
+    padding-left: 200px;
+    padding-bottom: 150px;
+  }
+  .prices ul {
+    list-style: none;
+    line-height: 30px;
+    margin-top: 50px;
+  }
+  .prices ul li {
+    font-weight: bold;
+  }
+  .prices ul li .price1 {
+    margin-left: 200px;
+    color: rgb(224, 145, 92);
+  }
+  .prices ul li .price2 {
+    margin-left: 234px;
+    color: rgb(224, 145, 92);
+  }
+  .prices ul li .price3 {
+    margin-left: 203px;
+    color: rgb(224, 145, 92);
+  }
+  .prices ul li .price4 {
+    margin-left: 284px;
+    color: rgb(224, 145, 92);
+  }
+  .prices ul li .price5 {
+    margin-left: 256px;
+    color: rgb(224, 145, 92);
+  }
+  .prices ul li .price6 {
+    margin-left: 284px;
+    color: rgb(224, 145, 92);
+  }
+}
+
+/* XL Devices */
+@media (min-width: 1200px) {
+  .menuBanner {
+    width: 100%;
+    height: auto;
+    background-image: url("../img/fotoo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 1150px;
+    margin-bottom: 100px;
+  }
+  .titles {
+    padding-top: 70px;
+    padding-left: 200px;
+  }
+  .titles .subtitle {
+    color: rgb(224, 145, 92);
+    font-family: "Montez", cursive;
+    font-size: 40px;
+  }
+  .titles .title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold !important;
+    margin-bottom: 20px;
+    color: white;
+  }
+  .text {
+    margin-top: 50px;
+    width: 42%;
+    padding-left: 200px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+  }
+  .prices {
+    margin-top: 20px;
+    color: white;
+    padding-left: 200px;
+    padding-bottom: 150px;
+  }
+  .prices ul {
+    list-style: none;
+    line-height: 30px;
+    margin-top: 50px;
+  }
+  .prices ul li {
+    font-weight: bold;
+  }
+  .prices ul li .price1 {
+    margin-left: 200px;
+    color: rgb(224, 145, 92);
+  }
+  .prices ul li .price2 {
+    margin-left: 234px;
+    color: rgb(224, 145, 92);
+  }
+  .prices ul li .price3 {
+    margin-left: 203px;
+    color: rgb(224, 145, 92);
+  }
+  .prices ul li .price4 {
+    margin-left: 284px;
+    color: rgb(224, 145, 92);
+  }
+  .prices ul li .price5 {
+    margin-left: 256px;
+    color: rgb(224, 145, 92);
+  }
+  .prices ul li .price6 {
+    margin-left: 284px;
+    color: rgb(224, 145, 92);
+  }
+}

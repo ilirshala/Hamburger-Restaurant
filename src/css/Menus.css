@@ -1,0 +1,26 @@
+.menus {
+  text-align: center;
+}
+.menus__titles {
+  margin: 70px 0 50px 0;
+}
+.menus__titles h1 {
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+.menus__titles p {
+  font-size: 19px;
+  color: rgb(145, 145, 145);
+}
+.menuItems {
+  padding: 30px;
+}
+.menuItems h3 {
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.menuItems p {
+  font-size: 19px;
+  color: rgb(145, 145, 145);
+}

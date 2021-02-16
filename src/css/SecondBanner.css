@@ -1,0 +1,39 @@
+.secondBanner {
+  width: 100%;
+  height: 250px;
+  background-image: url("../img/background2.png");
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  background-size: 100%;
+  background-color: transparent;
+  background-size: cover;
+  margin-bottom: 100px;
+}
+.secondBanner h1 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 100px;
+}
+/* XS Devices */
+@media (max-width: 575px) {
+  .secondBanner h1 {
+    font-size: 25px;
+  }
+}
+
+/* SM Devices */
+@media (min-width: 576px) and (max-width: 767px) {
+}
+
+/* MD Devices */
+@media (min-width: 768px) and (max-width: 990px) {
+}
+
+/* LG Devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* XL Devices */
+@media (min-width: 1200px) {
+}

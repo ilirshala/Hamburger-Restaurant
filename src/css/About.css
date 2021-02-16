@@ -1,0 +1,213 @@
+.about {
+  max-width: 1000px;
+  height: auto;
+  margin: auto;
+}
+.about h1 {
+  text-align: center;
+  padding: 30px 0;
+  font-size: 38px;
+  font-weight: 500;
+}
+.about p {
+  font-size: 17px;
+  width: 96%;
+  text-align: center;
+  margin: auto;
+  color: darkslategrey;
+  line-height: 30px;
+}
+.aboutRreshti {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.colonaFoto {
+  width: 450px;
+  height: 300px;
+  margin: auto;
+}
+.colonaFoto img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 40px;
+}
+.colonaFoto h3 {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.about__imagesRow {
+  padding-top: 40px;
+}
+
+/* XS Devices */
+@media (max-width: 575px) {
+  .about h1 {
+    font-size: 28px;
+  }
+  .aboutRreshti {
+    display: block;
+    align-items: center;
+  }
+  .colonaFoto {
+    width: 90%;
+    height: auto;
+    margin: auto;
+  }
+  .colonaFoto img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 40px;
+    margin-top: 30px;
+  }
+  .colonaFoto h3 {
+    font-size: 20px;
+  }
+}
+
+/* SM Devices */
+@media (min-width: 576px) and (max-width: 767px) {
+  .about h1 {
+    font-size: 28px;
+  }
+  .aboutRreshti {
+    display: block;
+    align-items: center;
+  }
+  .colonaFoto {
+    width: 90%;
+    height: auto;
+    margin: auto;
+  }
+  .colonaFoto img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 40px;
+    margin-top: 30px;
+  }
+  .colonaFoto h3 {
+    font-size: 25px;
+  }
+}
+
+/* MD Devices */
+@media (min-width: 768px) and (max-width: 990px) {
+  .about h1 {
+    font-size: 28px;
+  }
+  .aboutRreshti {
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+  }
+  .colonaFoto {
+    width: 90%;
+    height: auto;
+    margin: auto;
+  }
+  .colonaFoto img {
+    width: 90%;
+    height: 90%;
+    margin-bottom: 40px;
+    margin-top: 30px;
+  }
+  .colonaFoto h3 {
+    font-size: 25px;
+  }
+}
+
+/* LG Devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .about {
+    max-width: 1000px;
+    height: auto;
+    margin: auto;
+  }
+  .about h1 {
+    text-align: center;
+    padding: 30px 0;
+    font-size: 38px;
+    font-weight: 500;
+  }
+  .about p {
+    font-size: 17px;
+    width: 96%;
+    text-align: center;
+    margin: auto;
+    color: darkslategrey;
+    line-height: 30px;
+  }
+  .aboutRreshti {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .colonaFoto {
+    width: 450px;
+    height: 300px;
+    margin: auto;
+  }
+  .colonaFoto img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 40px;
+  }
+  .colonaFoto h3 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+  .about__imagesRow {
+    padding-top: 40px;
+  }
+}
+
+/* XL Devices */
+@media (min-width: 1200px) {
+  .about {
+    max-width: 1000px;
+    height: auto;
+    margin: auto;
+  }
+  .about h1 {
+    text-align: center;
+    padding: 30px 0;
+    font-size: 38px;
+    font-weight: 500;
+  }
+  .about p {
+    font-size: 17px;
+    width: 96%;
+    text-align: center;
+    margin: auto;
+    color: darkslategrey;
+    line-height: 30px;
+  }
+  .aboutRreshti {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .colonaFoto {
+    width: 450px;
+    height: 300px;
+    margin: auto;
+  }
+  .colonaFoto img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 40px;
+  }
+  .colonaFoto h3 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+  .about__imagesRow {
+    padding-top: 40px;
+  }
+}

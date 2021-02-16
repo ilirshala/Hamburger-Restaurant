@@ -1,0 +1,238 @@
+.banner {
+  height: 80vh;
+  width: 100%;
+  background-image: url("../img/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner__content {
+  padding: 10px;
+}
+.banner__title {
+  width: 50%;
+  padding-top: 100px;
+  font-size: 2em;
+}
+.banner__title h1 {
+  width: 550px;
+  margin-left: 250px;
+  color: white;
+  font-family: "Lora", serif;
+  word-spacing: 15px;
+}
+.banner__paragraph p {
+  font-family: "Montserrat", sans-serif;
+  margin-left: 250px;
+  color: white;
+  font-weight: 700;
+  padding-top: 20px;
+}
+.banner__button {
+  margin-left: 250px;
+  padding-top: 20px;
+}
+.banner__button button {
+  padding: 15px 25px;
+  border: none;
+  background-color: rgb(59, 59, 59);
+  color: white;
+  font-weight: 700;
+}
+.banner__button button:hover {
+  color: rgb(59, 59, 59);
+  background-color: white;
+  transition: 0.6s ease-in-out;
+  cursor: pointer;
+}
+
+/* XS Devices */
+@media (max-width: 575px) {
+  .banner {
+    height: 80vh;
+    width: 100%;
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .banner__title {
+    width: 100%;
+    padding-top: 30px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .banner__title h1 {
+    width: 230px;
+    margin-left: 40px;
+    text-align: center;
+    color: white;
+    font-family: "Lora", serif;
+    word-spacing: 15px;
+  }
+  .banner__paragraph p {
+    font-family: "Montserrat", sans-serif;
+    margin-left: 10px;
+    color: white;
+    font-weight: 700;
+    padding-top: 20px;
+    text-align: center;
+  }
+  .banner__button {
+    margin-left: 90px;
+    padding-top: 20px;
+  }
+}
+
+/* SM Devices */
+@media (min-width: 576px) and (max-width: 767px) {
+  .banner__title {
+    width: 100%;
+    padding-top: 70px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .banner__title h1 {
+    width: 430px;
+    margin-left: 65px;
+    text-align: center;
+    color: white;
+    font-family: "Lora", serif;
+    word-spacing: 15px;
+  }
+  .banner__paragraph p {
+    font-family: "Montserrat", sans-serif;
+    margin-left: 10px;
+    color: white;
+    font-weight: 700;
+    padding-top: 20px;
+    text-align: center;
+  }
+  .banner__button {
+    margin-left: 220px;
+    padding-top: 20px;
+  }
+}
+
+/* MD Devices */
+@media (min-width: 768px) and (max-width: 991px) {
+  .banner__title {
+    width: 100%;
+    padding-top: 100px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .banner__title h1 {
+    width: 630px;
+    margin-left: 62px;
+    text-align: center;
+    color: white;
+    font-family: "Lora", serif;
+    word-spacing: 15px;
+  }
+  .banner__paragraph p {
+    font-family: "Montserrat", sans-serif;
+    margin-left: -10px;
+    color: white;
+    font-weight: 700;
+    padding-top: 20px;
+    text-align: center;
+  }
+  .banner__button {
+    margin-left: 320px;
+    padding-top: 20px;
+  }
+}
+
+/* LG Devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .banner__title {
+    width: 50%;
+    padding-top: 100px;
+    font-size: 2em;
+  }
+  .banner__title h1 {
+    width: 550px;
+    margin-left: 250px;
+    color: white;
+    font-family: "Lora", serif;
+    word-spacing: 15px;
+  }
+  .banner__paragraph p {
+    font-family: "Montserrat", sans-serif;
+    margin-left: -10px;
+    color: white;
+    font-weight: 700;
+    padding-top: 20px;
+    text-align: center;
+  }
+  .banner__button {
+    margin-left: 320px;
+    padding-top: 20px;
+  }
+  .banner__paragraph p {
+    font-family: "Montserrat", sans-serif;
+    margin-left: -60px;
+    color: white;
+    font-weight: 700;
+    padding-top: 20px;
+  }
+  .banner__button {
+    margin-left: 250px;
+    padding-top: 20px;
+  }
+}
+
+/* XL Devices */
+@media (min-width: 1200px) {
+  .banner {
+    height: 73vh;
+    width: 100%;
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .banner__content {
+    padding: 10px;
+  }
+  .banner__title {
+    width: 50%;
+    padding-top: 100px;
+    font-size: 2em;
+  }
+  .banner__title h1 {
+    width: 550px;
+    margin-left: 250px;
+    color: white;
+    font-family: "Lora", serif;
+    word-spacing: 15px;
+  }
+  .banner__paragraph p {
+    font-family: "Montserrat", sans-serif;
+    margin-left: 250px;
+    color: white;
+    font-weight: 700;
+    padding-top: 20px;
+  }
+  .banner__button {
+    margin-left: 250px;
+    padding-top: 20px;
+  }
+  .banner__button button {
+    padding: 15px 25px;
+    border: none;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    font-weight: 700;
+  }
+  .banner__button button:hover {
+    color: rgb(59, 59, 59);
+    background-color: white;
+    transition: 0.6s ease-in-out;
+    cursor: pointer;
+  }
+}
